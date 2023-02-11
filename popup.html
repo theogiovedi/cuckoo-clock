@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Cuckoo Clock 🕰️</h1>
+    <span id="time"></span>
+    <style>
+        .credits {
+            text-align: center;
+        }
+
+        .credits-text {
+            font-size: 16px;
+        }
+
+        .credits-heart {
+            margin: 2px;
+            animation: credits-heart 1.5s linear infinite;
+        }
+
+        @keyframes credits-heart {
+            0% {
+                opacity: 0.3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.3;
+            }
+        }
+    </style>
+    <div class="credits">
+        <p class="credits-text"> Made with <span class="credits-heart">❤️</span> by <a class="credits-link"
+                href="https://github.com/theogiovedi" target="_blank">Théo Giovedi</a></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
