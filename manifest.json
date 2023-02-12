@@ -9,6 +9,8 @@
         "default_icon": "icons/128.png",
         "default_title": "Cuckoo Clock",
         "default_popup": "popup.html"
-    }
-
+    },
+    "permissions": [
+        "activeTab"
+    ]
 }
