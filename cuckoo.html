@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="cuckoo.css">
+    <link rel="shortcut icon" href="icons/128.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuckoo Clock 🕰️</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cuckoo Clock 🕰️</h1>
+        <span id="time"></span>
+        <style>
+            .credits {
+                text-align: center;
+            }
+
+            .credits-text {
+                font-size: 24px;
+            }
+
+            .credits-heart {
+                margin: 2px;
+                animation: credits-heart 1.5s linear infinite;
+            }
+
+            @keyframes credits-heart {
+                0% {
+                    opacity: 0.3;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 0.3;
+                }
+            }
+        </style>
+        <div class="credits">
+            <p class="credits-text"> Made with <span class="credits-heart">❤️</span> by <a class="credits-link"
+                    href="https://github.com/theogiovedi" target="_blank">Théo Giovedi</a></p>
+        </div>
+    </div>
+    <script src="cuckoo.js"></script>
+
+</body>
+
+</html>

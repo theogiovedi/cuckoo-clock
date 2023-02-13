@@ -11,6 +11,12 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "activeTab"
-    ]
+        "activeTab",
+        "notifications",
+        "alarms",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
 }
