@@ -5,3 +5,5 @@
 A cuckoo clock inside your browser
 
 # License
+
+MIT License
